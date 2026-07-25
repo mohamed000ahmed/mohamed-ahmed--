@@ -1,0 +1,54 @@
+Name: Mohamed Ahmed elsaied
+Group name : online C48Nodejs sun&wed 8
+Assignment1
+1.	forEach
+Works only with arrays.
+Cannot use break or continue.
+for...of
+Works with arrays, strings, and other iterable objects.
+Can use break and continue.
+2.	 Hoisting
+JavaScript moves declarations to the top before execution.
+var is hoisted and its value becomes undefined.
+Example:
+console.log(x);
+var x = 5;
+Output:
+undefined
+TDZ (Temporal Dead Zone)
+Happens with let and const.
+Using them before declaration causes an error.
+Example:
+console.log(x);
+let x = 5;
+
+3.0
+== compares values only and may convert data types.
+=== compares both value and data type.
+Example:
+5 == "5"     // true
+5 === "5"    // false
+4.0
+Used to handle errors without stopping the program.
+Useful with async code and promises.
+Example:
+try{
+    console.log(a);
+}
+catch(error){
+    console.log("Error");
+}
+5.0
+Type Conversion
+Manual conversion by the programmer.
+Example:
+Number("10");
+String(20);
+Boolean(1);
+Type Coercion
+Automatic conversion by JavaScript.
+Example:
+"5" + 2   // "52"
+
+"5" - 2   // 3
+
